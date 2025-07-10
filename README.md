@@ -8,7 +8,7 @@ The goal: build discipline, improve problem-solving, and create a strong portfol
 ##  Challenge Overview
 
 -  **Duration:** 90 days
--  **Start Date:** 7 July 2025
+-  **Start Date:** 11 July 2025
 -  **Focus Areas:**
   - DSA: Leetcode, Striver's SDE Sheet, problem-solving techniques
   - ML: Learning concepts, implementing projects, hands-on practice

@@ -29,10 +29,10 @@ To classify movie reviews from the IMDB dataset into **positive** or **negative*
 - Model:
   - Trained **Logistic Regression** on the TF-IDF features and CountVectorizer.
 - Evaluation:
-  - Accuracy achieved: **Test acc: 0.9147%** using CountVectorizer and Logistic Regression.
+  - Accuracy achieved: **Test acc: 91.47%** using CountVectorizer and Logistic Regression.
 
 ### Tools Used:
-- `scikit-learn`, `nltk`, `re`, `pandas`
+- `scikit-learn`, `nltk`, `pandas`
 
 ---
 
@@ -69,7 +69,7 @@ We implemented three different techniques to summarize long text documents into 
 - Extracted top-ranked sentences to form the final summary.
 
 #### Tools Used:
-- `nltk`, `sklearn`, `networkx`, `numpy`
+- `nltk`, `sklearn`, `numpy`
 
 ---
 
@@ -91,7 +91,7 @@ We implemented three different techniques to summarize long text documents into 
 - Spacy provided a balance between readability and precision.
 
 #### Tools Used:
-- `gensim`, `sumy`, `spacy`, `re`, `nltk`
+- `gensim`, `sumy`, `nltk`
 
 ---
 

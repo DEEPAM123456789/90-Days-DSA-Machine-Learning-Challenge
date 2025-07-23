@@ -7,7 +7,7 @@ In this project, we explored two important applications of NLP:
 2. **Text Summarization** – Generating concise summaries from large articles using three different approaches:
    - Frequency-based method (Part 1)
    - TextRank algorithm (Part 2)
-   - Using libraries like Gensim and Spacy (Part 3)
+   - Using libraries like Gensim (Part 3)
 
 ---
 
@@ -73,18 +73,17 @@ We implemented three different techniques to summarize long text documents into 
 
 ---
 
-### Part 3: Text Summarization using Libraries (Gensim & Spacy)
+### Part 3: Text Summarization using Libraries (Gensim)
 
 #### Approach 1: Using Gensim's Summarizer
 - Directly used `gensim.summarization.summarize()` on cleaned text.
 - Although `gensim.summarization.summarize()` didn't work because they have removed this feature from version v4.0+
 
-#### Approach 2: Using Spacy (with TextRank implementation)
-- Used Spacy to tokenize and vectorize the text.
+#### Approach 2: with TextRank implementation
 - Applied TextRank to extract important sentences.
 
 #### Approach 3: LexRank (via Sumy)
-- Implemented using `sumy.summarizers.lex_rank.LexRankSummarizer`
+- Implemented using `TextRankSummarizer & LsaSummarizer`
 
 #### Comparison:
 - Gensim and LexRank were easy to implement but required tuning for thresholding and sentence length.

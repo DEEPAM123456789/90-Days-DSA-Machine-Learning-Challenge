@@ -1,4 +1,4 @@
-# Day 15 - NLP: Text Classification in PyTorch ✈️
+# Day 15 - NLP: Text Classification in PyTorch
 
 ## Project: Sentiment Classification of Virgin America Airline Tweets
 
@@ -16,7 +16,6 @@ Build a binary text classifier using PyTorch to classify tweets as **positive** 
 ## Model Architecture
 
 - **Embedding Layer** – Converts tokens to dense vectors
-- **Global Average Pooling** – Reduces sequence dimension
 - **Fully Connected (Linear) Layer**
 - **Sigmoid Activation** – Outputs probability between 0 and 1
 

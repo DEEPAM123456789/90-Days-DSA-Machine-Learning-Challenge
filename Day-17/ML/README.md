@@ -1,6 +1,6 @@
 # Day 17 - NLP (Transformers Theory): Self-Attention & "Attention Is All You Need"
 
-## 🔹 1. Why Self-Attention?
+## 1. Why Self-Attention?
 
 Traditional embedding techniques like Word2Vec or GloVe produce **static word vectors**, i.e., the word *"bank"* will always have the same vector regardless of context:
 
@@ -11,7 +11,7 @@ To address this, **self-attention** generates **contextualized word embeddings**
 
 ---
 
-## 🔹 2. What Is Self-Attention?
+## 2. What Is Self-Attention?
 
 Self-attention is a mechanism where **every word in a sentence attends to every other word (including itself)** to compute **task-specific contextual embeddings**.
 
@@ -25,23 +25,23 @@ These help the model learn *how much attention* to give to other words when enco
 
 ---
 
-## 🔹 3. Self-Attention: Step-by-Step Intuition
+## 3. Self-Attention: Step-by-Step Intuition
 
-### 🧠 Example:
+### Example:
 > Input: `"The river bank was overflowing after the rain"`
 
 Let’s focus on the word “bank”. The goal is to update its embedding so the model understands it refers to **riverbank**, not a financial institution.
 
 ---
 
-### 🔄 Step 1: Compute Q, K, V
+### Step 1: Compute Q, K, V
 
 - Multiply each word's embedding by **Q, K, and V weight matrices** (learnable parameters).
 - This gives us **query**, **key**, and **value** vectors for each word.
 
 ---
 
-### 🔄 Step 2: Similarity Scores
+### Step 2: Similarity Scores
 
 - For a word's **query vector (Q₁)**, compute **dot products with all key vectors (K₁, K₂, ..., Kₙ)** in the sentence:
   \[
@@ -56,7 +56,7 @@ Let’s focus on the word “bank”. The goal is to update its embedding so the
 
 ---
 
-### 🔄 Step 3: Softmax
+### Step 3: Softmax
 
 - Apply `softmax` to get **attention weights**:
   \[
@@ -67,7 +67,7 @@ These weights represent **how much importance** to give to each word in the sent
 
 ---
 
-### 🔄 Step 4: Weighted Sum
+### Step 4: Weighted Sum
 
 - Multiply each word’s **value vector** (V) by its attention weight and sum them:
   \[
@@ -78,7 +78,7 @@ This is the **new contextual vector** for the word.
 
 ---
 
-## 🔹 4. Why It Works?
+## 4. Why It Works?
 
 Unlike RNNs or LSTMs:
 - **No sequential dependency**: All tokens are processed in parallel.
@@ -87,13 +87,13 @@ Unlike RNNs or LSTMs:
 
 ---
 
-## 🔹 5. Output Dimension
+## 5. Output Dimension
 
 The **output vector** has the **same dimensionality** as the input embedding due to the learned **linear transformations** applied after attention.
 
 ---
 
-## ✅ Benefits Recap
+## Benefits Recap
 
 | Feature                  | Self-Attention                          |
 |--------------------------|------------------------------------------|
@@ -104,7 +104,7 @@ The **output vector** has the **same dimensionality** as the input embedding due
 
 ---
 
-## 📘 Final Notes
+## Final Notes
 
 - Self-Attention is the **core building block** of the **Transformer architecture**, introduced in the paper **“Attention Is All You Need”**.
 - It forms the basis of modern LLMs like **BERT**, **GPT**, and others.
@@ -112,4 +112,4 @@ The **output vector** has the **same dimensionality** as the input embedding due
 
 ---
 
-📚 Next Up: Multi-Head Attention, Positional Encoding, and Full Transformer Block!
+Next Up: Multi-Head Attention, Positional Encoding, and Full Transformer Block!

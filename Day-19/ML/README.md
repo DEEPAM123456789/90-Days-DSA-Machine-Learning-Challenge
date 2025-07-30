@@ -1,10 +1,10 @@
-# 🧠 Transformer Architecture – Study Summary (Day-18)
+# Transformer Architecture – Study Summary (Day-18)
 
 Today, I completed the detailed theoretical study of Transformer Architecture including Encoder, Masked Self-Attention, Cross-Attention, Decoder Architecture, and Decoder Inference.
 
 ---
 
-## ✅ 1. Encoder Architecture
+## 1. Encoder Architecture
 
 - Each encoder block consists of:
   - Multi-Head Self-Attention (MHA)
@@ -18,7 +18,7 @@ Today, I completed the detailed theoretical study of Transformer Architecture in
 
 ---
 
-## ✅ 2. Masked Self-Attention (Decoder Only)
+## 2. Masked Self-Attention (Decoder Only)
 
 - Used in the first MHA block of each decoder layer.
 - Prevents a word from attending to future tokens during training/inference.
@@ -27,7 +27,7 @@ Today, I completed the detailed theoretical study of Transformer Architecture in
 
 ---
 
-## ✅ 3. Cross-Attention
+## 3. Cross-Attention
 
 - Used in the second MHA block in the decoder.
 - **Query** comes from the output of the masked self-attention block.
@@ -37,7 +37,7 @@ Today, I completed the detailed theoretical study of Transformer Architecture in
 
 ---
 
-## ✅ 4. Decoder Architecture
+## 4. Decoder Architecture
 
 - Consists of:
   - Masked Multi-Head Self-Attention (with causal mask)
@@ -50,7 +50,7 @@ Today, I completed the detailed theoretical study of Transformer Architecture in
 
 ---
 
-## ✅ 5. Feed Forward Network (FFN) – Why It’s Needed?
+## 5. Feed Forward Network (FFN) – Why It’s Needed?
 
 - Applied independently to each token’s representation.
 - Adds **non-linearity** after attention layers.

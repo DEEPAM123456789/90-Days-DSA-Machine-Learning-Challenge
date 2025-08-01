@@ -1,13 +1,13 @@
 # Statistics Revision – Day 22
 
-This file contains all the fundamental concepts you revised today with short, intuitive explanations and key formulae.
+This file contains all the fundamental concepts that I revised today with short, intuitive explanations and key formulae.
 
 ---
 
 ## Intro to Statistics
 **Statistics** is the science of learning from data. It helps us **collect**, **analyze**, **interpret**, and **present** data to make better decisions.
 
-> Think of it as turning raw data into meaningful stories.
+> Think statistics as turning raw data into meaningful stories.
 
 ---
 
@@ -57,9 +57,8 @@ These tell us where the "center" of the data lies.
 ### 1. **Mean (Average)**  
 Sum of all values divided by total count.  
 Formula:  
-$$
-\text{Mean} = \frac{x_1 + x_2 + ... + x_n}{n}
-$$
+
+Mean = (x₁ + x₂ + ... + xₙ) / n
 
 > Think of it as "fair share" for everyone.
 
@@ -99,9 +98,7 @@ $$
 It tells us how far each value is from the mean on average.
 
 Formula (Population Variance):  
-$$
-\sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2}
-$$
+Variance (σ²) = (1 / N) × Σ(xᵢ − μ)²
 
 > High variance = more spread out data.  
 > Low variance = data is tightly packed around mean.
@@ -140,9 +137,8 @@ Tells us whether two variables move together.
 - Negative: one increases, the other decreases.
 
 Formula:  
-$$
-\text{Cov}(X, Y) = \frac{1}{n} \sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})
-$$
+
+Covariance = (1 / n) × Σ(xᵢ − x̄)(yᵢ − ȳ)
 
 > Units are hard to interpret, so we use correlation.
 
@@ -152,9 +148,8 @@ $$
 Standardized covariance → ranges between -1 to +1.
 
 Pearson Correlation Coefficient:  
-$$
-r = \frac{\text{Cov}(X,Y)}{\sigma_X \cdot \sigma_Y}
-$$
+
+Correlation (r) = Cov(X,Y) / (σₓ × σᵧ)
 
 - **r = 1** → perfect positive
 - **r = -1** → perfect negative

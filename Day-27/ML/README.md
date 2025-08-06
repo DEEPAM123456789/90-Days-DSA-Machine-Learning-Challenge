@@ -9,11 +9,8 @@
   - Probabilistic Models for generation
   - Multimodal GenAI (e.g., image to recipe, humming to music)
 
-- Created in-depth notes: [`GenAI_Notes.md`](./GenAI_Notes.md)
-
 - Coding Work:
   - Used a GPT model to **generate poetry and music** 
-  - See the output file: [`Poetry_and_Music_Generation.ipynb`](./Poetry_and_Music_Generation.ipynb)
 
 # Introduction to Generative AI (GenAI)
 
@@ -76,9 +73,9 @@ Models generate by sampling based on these probabilities.
 Multimodal GenAI = Combining multiple types of data (text, image, audio, video) to generate new content.
 
 Example use cases:
-- Input: 📷 Image of food → Output: 🍳 Recipe in text.
-- Input: 🎤 Humming → Output: 🎼 Full music track.
-- Input: 🧑‍⚕️ X-ray → Output: Diagnostic report (text).
+- Input: Image of food → Output: Recipe in text.
+- Input: Humming → Output: Full music track.
+- Input: X-ray → Output: Diagnostic report (text).
 
 Examples of models:
 - GPT-4 (with image input)

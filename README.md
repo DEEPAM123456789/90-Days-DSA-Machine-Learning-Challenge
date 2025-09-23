@@ -1,6 +1,6 @@
 # 30 Days DSA & Machine Learning Challenge
 
-Welcome to my **90-day journey** to level up my skills in **Data Structures, Algorithms, and Machine Learning**.  
+Welcome to my **30-day journey** to level up my skills in **Data Structures, Algorithms, and Machine Learning**.  
 The goal: build discipline, improve problem-solving, and create a strong portfolio of consistent progress.
 
 ---

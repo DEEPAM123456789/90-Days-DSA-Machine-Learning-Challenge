@@ -1,4 +1,4 @@
-# 90 Days DSA & Machine Learning Challenge
+# 30 Days DSA & Machine Learning Challenge
 
 Welcome to my **90-day journey** to level up my skills in **Data Structures, Algorithms, and Machine Learning**.  
 The goal: build discipline, improve problem-solving, and create a strong portfolio of consistent progress.
@@ -7,7 +7,7 @@ The goal: build discipline, improve problem-solving, and create a strong portfol
 
 ##  Challenge Overview
 
--  **Duration:** 90 days
+-  **Duration:** 30 days
 -  **Start Date:** 11 July 2025
 -  **Focus Areas:**
   - DSA: Leetcode, Striver's SDE Sheet, problem-solving techniques
